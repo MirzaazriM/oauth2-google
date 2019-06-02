@@ -1,0 +1,14 @@
+{
+    "name": "user/oauth2-google",
+    "description": "Oauth login with gmail",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Mirza O.",
+            "email": "oglecevacmirza@gmail.com"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^2.2"
+    }
+}
