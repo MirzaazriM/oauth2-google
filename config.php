@@ -16,9 +16,9 @@ $client = new Google_Client();
 //  - choose application type (Web application), set app name and URL for callback script (where Google will send data after user logs in with Google account)
 //  - collect neccessary info after process is finished (id, secret, app name, redirect uri) and set here
 
-$client->setClientId("1013593684828-gvip336ciivu3jl8r2i8qepu76haumne.apps.googleusercontent.com");
-$client->setClientSecret("n1k-3IyQ8pII7ApbDNjIjVmw");
-$client->setApplicationName("oauthdemo");
+$client->setClientId("");
+$client->setClientSecret("");
+$client->setApplicationName("");
 $client->setRedirectUri("http://oauthgoogle.192.168.0.101.xip.io:8887/callback.php"); // my MAMP project url
 
 // more about scopes here https://developers.google.com/identity/protocols/googlescopes
